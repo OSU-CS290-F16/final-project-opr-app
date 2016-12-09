@@ -1,0 +1,38 @@
+<header>
+	<h1 id="title">
+		955 OPR
+	</h1>
+	
+	<div id="ec-container">
+		<form>
+			<input placeholder="Enter event code..." type="text" id="ec-input">
+		</form>
+
+
+		<div id="submit-btn" class="btn inline-txt">
+			SUBMIT
+		</div>
+
+
+		<div id="download-btn" class="btn inline-txt">
+			DOWNLOAD
+		</div>
+	</div>
+
+	{{#if header}}
+		<div id="header-table-container" class="table-container">
+			<div id="header-table" class="content-table">
+				<table id="table" class="table">
+					<tr class="row dark-gray">
+						{{#each header}}
+							<th class="table-cell btn" width="122.078">
+								{{this}}
+							</th>
+						{{/each}}
+					<tr>
+				</table>
+			</div>
+		</div>
+	{{/if}}
+
+</header>

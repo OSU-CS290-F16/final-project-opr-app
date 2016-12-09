@@ -1,0 +1,54 @@
+@import '../util/vars';
+
+.gray 
+{
+	background-color: $color-table;
+}
+
+.light-gray
+{
+	background-color: $color-table-light;
+}
+
+.dark-gray
+{
+	background-color: $color-table-dark;
+}
+
+.table-container 
+{
+	width: 1200px;
+	position: absolute;
+	margin: 0 auto;
+	left: 0px;
+	right: 0px;
+}
+
+.content-table
+{
+	position: absolute;
+	width: 1000px;
+	right: 0;
+}
+
+.table-row 
+{
+	text-align: center;
+}
+
+.table-cell
+{
+	height: 30px;
+	font-size: 12px;
+}
+
+#header-table-container
+{
+	top: 150px;
+}
+
+#data-table-container
+{
+	font-family: $font-secondary;
+	margin-top: 185px;
+}

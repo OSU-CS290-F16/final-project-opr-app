@@ -1,0 +1,13 @@
+@import 'util/vars';
+@import 'partials/font';
+@import 'partials/header';
+@import 'partials/table';
+
+body 
+{
+	background-color: $color-bg;
+	font-family: $font-main;
+	cursor: default;
+	user-select: none;
+}
+

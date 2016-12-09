@@ -1,0 +1,112 @@
+/*FONTS*/
+/*COLOR*/
+/*FONTS*/
+/*COLOR*/
+@font-face {
+  font-family: orbitron;
+  src: url("../../fonts/orbitron/Orbitron-Medium.woff") format("woff"); }
+
+@font-face {
+  font-family: orbitron;
+  font-weight: bold;
+  src: url("../../fonts/orbitron/Orbitron-Medium.woff") format("woff"); }
+
+@font-face {
+  font-family: lato;
+  src: url("../../fonts/lato/Lato-Medium.woff") format("woff"); }
+
+/*FONTS*/
+/*COLOR*/
+header {
+  background-color: #f7f7f7;
+  position: fixed;
+  min-width: 1200px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  height: 190px;
+  z-index: 1; }
+
+#title {
+  text-align: center;
+  color: #840204; }
+
+#ec-container {
+  width: 470px;
+  margin: 0 auto; }
+
+#ec-input {
+  font-family: lato;
+  float: left;
+  width: 222px; }
+
+#submit-btn {
+  color: white;
+  width: 100px;
+  margin-left: 5px;
+  background-color: #840204; }
+
+#download-btn {
+  color: white;
+  width: 125px;
+  margin-left: 10px;
+  background-color: #840204; }
+
+.btn:hover {
+  opacity: 0.75;
+  cursor: pointer; }
+
+.btn:active {
+  opacity: 0.5; }
+
+.inline-txt {
+  height: 21px;
+  line-height: 21px;
+  float: left;
+  text-align: center; }
+
+/*FONTS*/
+/*COLOR*/
+.gray {
+  background-color: #cccccc; }
+
+.light-gray {
+  background-color: #dedede; }
+
+.dark-gray {
+  background-color: #dfdfdf; }
+
+.table-container {
+  width: 1200px;
+  position: absolute;
+  margin: 0 auto;
+  left: 0px;
+  right: 0px; }
+
+.content-table {
+  position: absolute;
+  width: 1000px;
+  right: 0; }
+
+.table-row {
+  text-align: center; }
+
+.table-cell {
+  height: 30px;
+  font-size: 12px; }
+
+#header-table-container {
+  top: 150px; }
+
+#data-table-container {
+  font-family: lato;
+  margin-top: 185px; }
+
+body {
+  background-color: #f7f7f7;
+  font-family: orbitron;
+  cursor: default;
+  user-select: none; }

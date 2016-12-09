@@ -1,0 +1,73 @@
+@import '../util/vars';
+
+header 
+{
+	background-color: $color-bg;
+	position: fixed;
+	min-width: 1200px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	height: 190px;
+	z-index: 1;
+}
+
+#title
+{
+	text-align: center;
+	color: $color-main;
+}
+
+#ec-container
+{
+	width: 470px;
+	margin: 0 auto;
+}
+
+#ec-input
+{
+	font-family: $font-secondary;
+	float: left;
+	width: 222px;
+}
+
+#submit-btn
+{
+	color: white;
+	width: 100px;
+	margin-left: 5px;
+	background-color: $color-main;
+}
+
+#download-btn
+{
+	color: white;
+	width: 125px;
+	margin-left: 10px;
+	background-color: $color-main;
+}
+
+.btn 
+{
+	&:hover
+	{
+		opacity: 0.75;
+		cursor: pointer;
+	} 
+
+	&:active
+	{
+		opacity: 0.5;
+	}
+}
+
+.inline-txt
+{
+	height: 21px;
+	line-height: 21px;
+	float: left;
+	text-align: center;
+}

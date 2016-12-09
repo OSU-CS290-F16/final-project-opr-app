@@ -1,0 +1,17 @@
+{{> header}}
+
+<div id="data-table-container" class="table-container">
+	<div id="data-table" class="content-table">
+		<table id="table" class="table">
+			{{#each rows}}
+				<tr class="table-row">
+					{{#each this}}
+					<td class="table-cell" width="122px" >
+						{{this}}
+					</td>
+					{{/each}}
+				</tr>
+			{{/each}}
+		</table>
+	</div>
+</div>
